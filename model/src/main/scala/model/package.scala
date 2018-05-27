@@ -9,7 +9,8 @@ package object model {
                              date: LocalDate,
                              place: String)
   case class Trip(id: Int,
-                  company: String,
+                  company: Int,
+                  plane: String,
                   townFrom: String,
                   townTo: String,
                   timeOut: LocalTime,
